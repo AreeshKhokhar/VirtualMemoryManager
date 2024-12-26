@@ -244,8 +244,7 @@ void loadPage(MemoryState* state, int pcbIndex) {
         if (pageFound) {
             printf("* Page in memory.\n");
         } else {
-            printf("! Page not in Main memory, loading it from the secondary drive....\n");
-            printf("* Success!!\n");
+            printf("! Page not in Main memory.\n");
         }
     }
 }
